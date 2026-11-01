@@ -38,7 +38,8 @@ public class DeviceKeysConstants {
         POWER_MENU,
         CONTEXTUAL_SEARCH,
         SILENCE_CALL,
-        LAUNCH_APP;
+        LAUNCH_APP,
+        FLOATING_WINDOW;
 
         public static Action fromIntSafe(int id) {
             if (id < NOTHING.ordinal() || id >= Action.values().length) {
