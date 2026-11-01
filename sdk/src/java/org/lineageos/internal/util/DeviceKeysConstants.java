@@ -34,7 +34,8 @@ public class DeviceKeysConstants {
         VOLUME_PANEL,
         CLEAR_ALL_NOTIFICATIONS,
         NOTIFICATIONS,
-        QS_PANEL;
+        QS_PANEL,
+        FLOATING_WINDOW;
 
         public static Action fromIntSafe(int id) {
             if (id < NOTHING.ordinal() || id >= Action.values().length) {

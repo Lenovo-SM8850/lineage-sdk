@@ -374,7 +374,7 @@ public final class LineageSettings {
             new InclusiveIntegerRangeValidator(0, 86400);
 
     private static final Validator sHardwareKeyActionvalidator =
-            new InclusiveIntegerRangeValidator(0, 19);
+            new InclusiveIntegerRangeValidator(0, 20);
 
     private static final Validator sAlwaysTrueValidator = new Validator() {
         @Override
