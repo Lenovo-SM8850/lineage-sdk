@@ -192,6 +192,7 @@
     <java-symbol type="integer" name="config_defaultChargingControlStartTime" />
     <java-symbol type="integer" name="config_defaultChargingControlTargetTime" />
     <java-symbol type="integer" name="config_defaultChargingControlLimit" />
+    <java-symbol type="integer" name="config_chargingControlLimitMin" />
     <java-symbol type="drawable" name="ic_charging_control" />
     <java-symbol type="integer" name="config_chargingControlTimeMargin" />
     <java-symbol type="integer" name="config_chargingControlBatteryRechargeMargin" />
