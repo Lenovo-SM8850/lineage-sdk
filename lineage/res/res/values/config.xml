@@ -410,6 +410,9 @@
     <!-- Default charging limit. -->
     <integer name="config_defaultChargingControlLimit">80</integer>
 
+    <!-- Lowest charging limit the user can select. -->
+    <integer name="config_chargingControlLimitMin">70</integer>
+
     <!-- Considering the fact that the system might have an incorrect estimation of the time to
          full. Set a time margin to make the device fully charged before the target time arrives.
 
